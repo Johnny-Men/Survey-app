@@ -11,7 +11,7 @@
     <h1>{{title}}</h1>
     <p>{{instructions}}</p>
     {% block content %}
-    <form action="/question/0">
+    <form action="/session-list" method="POST">
         <button>Start</button> 
     </form>
     {% endblock %}
